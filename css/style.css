@@ -61,6 +61,8 @@ header h1, header p {
     transition: background-color 0.3s, border-color 0.3s, transform 0.2s;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
     text-align: center; /* Centra il testo all'interno della card */
+    width: 100%;
+    max-width: 400px;
 }
 
 .link-card:hover {
@@ -79,7 +81,8 @@ header h1, header p {
     .grid {
         /* Passaggio a layout a griglia/colonne per schermi più grandi */
         flex-direction: row; 
-        flex-wrap: wrap; 
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
     .link-card {
