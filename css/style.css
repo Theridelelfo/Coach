@@ -99,3 +99,25 @@ footer {
     padding-left: 10px; /* ✅ aggiunto */
     padding-right: 10px; /* ✅ aggiunto */
 }
+
+/* Layout pulsanti Launchpad */
+.container-pulsanti {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* due colonne */
+  gap: 10px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.container-pulsanti button {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+}
+
+/* Responsive: su schermi piccoli torna a una colonna */
+@media (max-width: 600px) {
+  .container-pulsanti {
+    grid-template-columns: 1fr; /* una colonna */
+  }
+}
