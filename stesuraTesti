@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Progetto di stesura testi</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Progetto di stesura testi</h1>
+
+  <div class="container-pulsanti">
+    <button onclick="location.href='corsoHTML.html'">Corso HTML</button>
+    <button onclick="location.href='creareSitoLibroIA.html'">Come creare un sito web e scrivere un libro con l'IA</button>
+    <button onclick="location.href='chitarraClassica.html'">Corso di chitarra classica</button>
+    <button onclick="location.href='chitarraFingerpicking.html'">Corso di chitarra fingerpicking</button>
+  </div>
+</body>
+</html>
