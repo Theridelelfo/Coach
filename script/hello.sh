@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # Questo è il mio primo script bash
+echo $SHELL
 bash --version
 echo "Hello World! Sto preparando l'ambiente per i miei agenti."
 
